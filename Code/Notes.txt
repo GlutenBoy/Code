@@ -1,0 +1,44 @@
+﻿Make:
+
+                              Cost             Sell     Bug Start %
+* Batch File                  50 LoC           5$       0
+* Bash Script                 100 LoC          12$      0
+* Office Automation Script    200 LoC          30$      10%
+* Windows Program             500 LoC          70$
+* Static Web Site             1200 LoC         
+* Mac Application             2600 LoC
+* PHP Web Site                3500 LoC
+* Ruby on Rail Web Site       8000 LoC
+* Mobile Phone Application    20 000 LoC
+* Mobile Tablet Application   50 000 LoC
+* Office Entegrated Program   150 000 LoC
+* Office Backend Solution     400 000 LoC
+* Office COT Configuration    1 000 000 LoC
+* Mobile Phone Game           2 500 000 LoC   
+* Mobile Tablet Game          7 000 000 LoC
+* PC Game                     20 000 000 LoC
+* Console Game                50 000 000 LoC
+* All Platform Game           100 000 000 LoC 
+
+
+Buy:                                   Bonus
+
+* Better Text Editor                   X2 LoC per click
+* IDE                                  X5 LoC per click
+* Source Control                       Reduce bugs by 5%
+* Unit Testing Framework               Reduce bugs by 25%
+* Automated Tests Solution             Reduce bugs by 50%
+* Continuous Integration Server        Reduce bugs by 75%
+* DevOps                               Reduce bugs by 95%
+
+* Coffee                               X2 LoC for x amount of time?
+* Energy Drink                         X3 LoC for x amount of time? 
+
+Hire:
+
+                                       Bonus                                    Salary
+* Programmer                           Makes 1 LoC per sec                      1$ every sec
+* Tester                               Needed to use testing tools              1$ every sec
+* Project Manager                      Makes product automatically (1 per PM)   3$ every sec
+* Sales Person                         Sales product automatically (1 per SP)   3$ every sec
+* Marketing Expert                     Increase price of products               5$ every sec
