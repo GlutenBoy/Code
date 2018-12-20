@@ -1,5 +1,31 @@
-﻿Make:
+One button to code (in the form of a keyboard).
+To start when you click the button you create 1 line of code (Loc).
 
+With ﻿LoC you can MAKE software which you can SELL to make money.
+
+Different software are worth different amount or money based on the type (batch file to all platform game) and by % of LoC with bug.
+The % of bug reduces the amount by that %. Example a software worth 100$ with 20% of bugs will sell for 80$.
+
+With money you can buy different type of things:
+* Tools to augment the number of LoC when coding (click the button)
+* Tools to reduce % of bugs produced.
+* 
+
+Idea:
+Should we decide to make a software before we start coding? Example: we choose to make a Windows Program. Once we code or programmer code
+all LoC goes toward this goal until complete? Maybe we can make 2 things at the same time, have a keyboard button for each and/or assign
+a programmer to it.
+
+Software Name                LoC Needed      LoC Completed     Loc with bugs    % of Bugs     $ Worth    Original Worth
+Windows Programs  [code]     
+
+Global Things:
+Money
+
+
+
+
+Make:
                               Cost             Sell     Bug Start %
 * Batch File                  50 LoC           5$       0
 * Bash Script                 100 LoC          12$      0
