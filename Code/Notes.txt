@@ -1,7 +1,7 @@
 One button to code (in the form of a keyboard).
 To start when you click the button you create 1 line of code (Loc).
 
-With ﻿LoC you can MAKE software which you can SELL to make money.
+With LoC you can MAKE software which you can SELL to make money.
 
 Different software are worth different amount or money based on the type (batch file to all platform game) and by % of LoC with bug.
 The % of bug reduces the amount by that %. Example a software worth 100$ with 20% of bugs will sell for 80$.
@@ -9,21 +9,45 @@ The % of bug reduces the amount by that %. Example a software worth 100$ with 20
 With money you can buy different type of things:
 * Tools to augment the number of LoC when coding (click the button)
 * Tools to reduce % of bugs produced.
-* 
+
+You can also hire people:
+* Hire programmer, these produces x amount of LoC per seconds
+* Hire tester, these reduce % of LoC produced with Bugs
+* Hire saleperson, these sales your software automatically once done
+* Hire Marketing expert, these increase original value of software (after of before bug?)
+People as a salary of x$ per seconds (important to make them work!) 
+You can hire more than one type of person.
 
 Idea:
 Should we decide to make a software before we start coding? Example: we choose to make a Windows Program. Once we code or programmer code
 all LoC goes toward this goal until complete? Maybe we can make 2 things at the same time, have a keyboard button for each and/or assign
 a programmer to it.
+Should we introduce the concept of months? Salary could be base on the month, paid at beginning of months?, if not you lose the hire?
+Disgruntly employee leave with a chunch of LoC? A month could be x amount of seconds.
 
 Software Name                LoC Needed      LoC Completed     Loc with bugs    % of Bugs     $ Worth    Original Worth
 Windows Programs  [code]     
 
 Global Things:
-Money
+Game
+  Money
+  BugPercentage (default start at 50% ?)
+  Tools
+  HiredPeople
+  SoftwareInTheMaking
 
-
-
+AvailableSoftware
+  Name
+  LoCNeeded
+  OriginalValue
+AvailableTools
+  Name
+  Cost
+  Effect (function called with Game object that would alter things?)
+AvailablePeople
+  Name
+  Salary
+  Affect (
 
 Make:
                               Cost             Sell     Bug Start %
@@ -51,20 +75,35 @@ Buy:                                   Bonus
 
 * Better Text Editor                   X2 LoC per click
 * IDE                                  X5 LoC per click
-* Source Control                       Reduce bugs by 5%
-* Unit Testing Framework               Reduce bugs by 25%
-* Automated Tests Solution             Reduce bugs by 50%
-* Continuous Integration Server        Reduce bugs by 75%
-* DevOps                               Reduce bugs by 95%
+* Mechanical Keyboard
+* Double monitor                       X10 LoC per click
+* A door
+* 
+* Source Control                       (needed to hire programmers)
+* Unit Testing Framework               (needed to hire <= 3 testers)
+* Automated Tests Solution             (needed to hire <= 10 testers)
+* Continuous Integration Server        (needed to hire <= 30 testers)
+* DevOps                               (needed to hire infinite testers)
 
+* Tea?
 * Coffee                               X2 LoC for x amount of time?
 * Energy Drink                         X3 LoC for x amount of time? 
+* Yoga Lesson                          code bug free of x amount of time.
 
 Hire:
-
                                        Bonus                                    Salary
 * Programmer                           Makes 1 LoC per sec                      1$ every sec
-* Tester                               Needed to use testing tools              1$ every sec
+* Tester                               reduce 1% of LoC produced with bugs      1$ every sec
 * Project Manager                      Makes product automatically (1 per PM)   3$ every sec
 * Sales Person                         Sales product automatically (1 per SP)   3$ every sec
 * Marketing Expert                     Increase price of products               5$ every sec
+
+Events that would occur:
+
+* Unionize now programmer and tester cost more
+* Strike reduce production
+* Plague kill people
+* Great weather boost morale and production for a time
+* Hack loose one randon software in the making or reduce value?
+* Cold one programmer bug % explode
+* etc
